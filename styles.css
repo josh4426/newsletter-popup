@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;1,200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./Newsletter\ Popup\ Starter\ Files/Assets/Background.png);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Karla', sans-serif;
+    margin: 50px;
+}
+.head1{
+    background-color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-bottom: 50px;
+}
+.sub{
+    background-color: rgb(35,85,242);
+    background-image: url(./Newsletter\ Popup\ Starter\ Files/Assets/Pattern.png);
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    font-size: 36px;
+    color: white;
+}
+.sub2{
+    padding-bottom: 20px;
+}
+.sub3{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.sub4{
+    padding-top: 5px;
+}
+.two{
+    font-size: 18px;
+    padding-top: 35px;
+    padding-bottom: 28px;
+    line-height: 25px;
+}
+.three{
+    outline: none;
+    height: 50px;
+    padding-right: 90px;
+    padding-left: 10px;
+    background-color: rgb(245, 247, 250);
+    border-radius: 5px;
+    border: 1px solid rgb(203, 207, 217);
+}
+button{
+    height: 50px;
+    padding-left: 38px;
+    padding-right: 38px;
+    color: white;
+    border: none;
+    background-color: rgb(35,85,242);
+    border-radius: 7px;
+}
+.five{
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+.seven{
+    font-weight: bold;
+    padding-right: 22px;
+}
+.six{
+    padding-right: 25px;
+    padding-right: 20px;
+}
+.eight{
+    line-height: 25px;
+    font-size: 18px;
+}
+@media screen and (max-width:600px) {
+    .sub{
+        margin-top: -50px;
+        margin-left: -100px;
+        margin-right: -100px;
+        height: 100%;
+        font-size: 15px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+    .sub2{
+        padding-bottom: 50px;
+    }
+    .sub3{
+        padding-bottom: 100px;
+        padding-top: 100px;
+    }
+    .head1{
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        height: 100%;
+        margin-left: -100px;
+        margin-right: -100px;
+    }
+    .two{
+        font-size: 16px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .three{
+        padding-right: 25px;
+    }
+    .five{
+        font-size: 18px;
+    }
+    .eight{
+        padding-top: 100px;
+        font-size: 15px;
+    }
+}
